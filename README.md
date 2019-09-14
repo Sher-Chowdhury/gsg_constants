@@ -8,6 +8,10 @@ also:
 
 ```bash
 $ export PATH=$PATH:~/go/bin/
-$ gsg_hello_world
-hello world
+$ gsg_constants
+3
+4
+3.141
+3
+3.141
 ```
