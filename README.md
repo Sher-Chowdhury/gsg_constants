@@ -1,6 +1,6 @@
 ```bash
-$ go get github.com/Sher-Chowdhury/gsg_hello_world
-$ go run github.com/Sher-Chowdhury/gsg_hello_world
+$ go get github.com/Sher-Chowdhury/gsg_constants
+$ go run github.com/Sher-Chowdhury/gsg_constants
 hello world
 ```
 
