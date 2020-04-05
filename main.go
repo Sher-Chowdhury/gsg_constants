@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	const pie = 3
-	fmt.Println(pie) . // 3
+	fmt.Println(pie) // 3
 
 	// note, you can't initialise and then declare constants, i.e. the following won't work. Hence
 	// you only declare constants and the initialisation is done for you by golang, behind the scenes.
