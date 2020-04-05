@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	const pie = 3
-	fmt.Println(pie)
+	fmt.Println(pie) . // 3
 
 	// note, you can't initialise and then declare constants, i.e. the following won't work. Hence
 	// you only declare constants and the initialisation is done for you by golang, behind the scenes.
@@ -18,16 +18,16 @@ func main() {
 	// they get baked-in during compile time (ie. during the creation of the binary).
 
 	// constants can be used with different data types, e.g. as an integer or float
-	fmt.Println(pie + 1)     // works as an integer
-	fmt.Println(pie + 0.141) // used as a float
+	fmt.Println(pie + 1)     // 4
+	fmt.Println(pie + 0.141) // 3.141
 
 	// however you can restrict constant to be used as a particular data type
 	const pi int = 2
-	fmt.Println(pi + 1)
+	fmt.Println(pi + 1) // 3
 
 	// however this will fail
 	// fmt.Println(pi + 1.141)
 
 	// a workaround is by doing a conversion:
-	fmt.Println(float32(pi) + 1.141)
+	fmt.Println(float32(pi) + 1.141)  // 3.141
 }
